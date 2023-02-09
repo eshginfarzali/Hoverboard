@@ -14,7 +14,7 @@ for (let i=1; i<SQUARE; i++){
 function setColor(div){
     const randomColor=getRandomColor()
     div.style.backgroundColor= randomColor
-    div.stylee.boxShadow=` 0 0 2px ${randomColor}, 0 0 10px ${getRandomColor}`
+    div.style.boxShadow=` 0 0 2px ${randomColor}, 0 0 10px ${getRandomColor}`
 }
 
 function getRandomColor(){
@@ -23,6 +23,6 @@ function getRandomColor(){
 
 function removeColor(div){
     div.style.backgroundColor= '#111'
-    div.stylee.boxShadow='0 0 2px #000';
+    div.style.boxShadow='0 0 2px #000';
      
 }
